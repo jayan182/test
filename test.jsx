@@ -13,6 +13,13 @@ function Counter(){
             >
                 Increase
             </button>
+            <button
+                onClick={()=>{
+                    setCounter(i => (i+1))
+                }}
+            >
+                Decrease
+            </button>
         </div>
     )
 }
