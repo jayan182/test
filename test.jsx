@@ -11,7 +11,7 @@ function Counter(){
                     setCounter(i => (i+1))
                 }}
             >
-                Increase
+                Increment
             </button>
         </div>
     )
